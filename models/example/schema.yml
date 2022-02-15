@@ -7,8 +7,7 @@ models:
       columns:
           - name: id
             description: "The primary key for this table"
-            tests:
-                - unique
+
                 
 
     - name: my_second_dbt_model
@@ -16,6 +15,5 @@ models:
       columns:
           - name: id
             description: "The primary key for this table"
-            tests:
-                - unique
+
                 
